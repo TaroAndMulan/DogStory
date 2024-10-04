@@ -11,6 +11,8 @@ export default function Home() {
         className="w-[393px] h-[852px] top-[0px] absolute"
         src={HomeGif}
         alt="Gif of floating dog" 
+        unoptimized
+
       />
       <div  className="left-[82px] top-[580px] absolute text-center text-black text-[64px] 
       font-normal font-['FC_Marshmallow']"

@@ -14,8 +14,7 @@ export default function Instruction() {
         className="w-[450px] h-[852px] left-0 top-0 absolute"
         src={CreamBackgroundGif}
         alt="moving background" 
-        unoptimized={true}
-
+        unoptimized
       />
 
       <Image
