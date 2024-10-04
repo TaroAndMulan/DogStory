@@ -2,7 +2,7 @@
 import Link from "next/link"
 import Image from 'next/image';
 import InstructionPng from '/public/images/Instruction2.png'
-import InstructionGif from '/public/images/Instruction.gif'
+import CreamBackgroundGif from '/public/images/CreamBackground.gif'
 
 
 export default function Instruction() {
@@ -12,7 +12,7 @@ export default function Instruction() {
       >
     <Image width={450} height={852}
         className="w-[450px] h-[852px] left-0 top-0 absolute"
-        src={InstructionGif}
+        src={CreamBackgroundGif}
         alt="moving background" 
         unoptimized={true}
 
