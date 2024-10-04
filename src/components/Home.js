@@ -10,7 +10,7 @@ export default function Home() {
       <img 
         width="393" height="852"
         className="w-[393px] h-[852px] top-[0px] absolute"
-        src="/images/Home.gif"
+        src="/images/Old_bed_room.png"
         alt="Gif of floating dog" 
       />
       <div  className="left-[82px] top-[580px] absolute text-center text-black text-[64px] 
