@@ -12,7 +12,7 @@ export default function Instruction() {
       >
     <Image width={450} height={852}
         className="w-[450px] h-[852px] left-0 top-0 absolute"
-        src={InstructionPng}
+        src="/images/CreamBackground.gif"
         alt="moving background" 
         unoptimized
       />
