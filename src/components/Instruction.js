@@ -2,7 +2,7 @@
 import Link from "next/link"
 import Image from 'next/image';
 import InstructionPng from '/public/images/Instruction2.png'
-import CreamBackgroundGif from '/public/images/CreamBackground.gif'
+//import CreamBackgroundGif from '/public/images/CreamBackground.gif'
 
 
 export default function Instruction() {
