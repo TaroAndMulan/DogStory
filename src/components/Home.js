@@ -6,13 +6,12 @@ export default function Home() {
   return (
     <Link href="/Instruction">
         <div  className="w-[393px] h-[852px] relative  bg-white mx-auto overflow-hidden">
-      <Image
-        width={393} height={852}
-        className="w-[393px] h-[852px] top-[0px] absolute"
-        src={HomeGif}
-        alt="Gif of floating dog" 
-        unoptimized
 
+      <img 
+        width="393" height="852"
+        className="w-[393px] h-[852px] top-[0px] absolute"
+        src="/images/Home.gif"
+        alt="Gif of floating dog" 
       />
       <div  className="left-[82px] top-[580px] absolute text-center text-black text-[64px] 
       font-normal font-['FC_Marshmallow']"
