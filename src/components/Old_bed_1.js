@@ -11,14 +11,14 @@ export default function Old_bed_1() {
  }
   return (
 
-<div className="w-[393px] h-[852px] relative bg-white mx-auto"
+<div className="w-[393px] h-full relative bg-white mx-auto overflow-hidden"
 
     >
   
   <Image
         width = {1097}
         height = {933}
-        className="w-[393px]  h-[852px] absolute"
+        className="w-[393px]  h-full absolute"
         src={Old_bed_pic}
         alt="background" 
       />

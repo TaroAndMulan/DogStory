@@ -25,7 +25,7 @@ export default function Page({ params }: { params: { slug: string } }) {
       };
 
 
-    return (<div className="h-screen relative overflow-hidden">
+    return (<div className="h-dvh relative  overflow-hidden">
         {renderContent()}      
     </div>)
   }

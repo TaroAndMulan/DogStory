@@ -5,12 +5,12 @@ export default function Home() {
 
   return (
     <Link href="/Instruction">
-        <div  className="w-[393px] h-[852px] relative  bg-white mx-auto overflow-hidden">
+        <div  className="w-[393px] h-dvh relative  bg-white mx-auto ">
 
 
       <Image
         width={393} height={852}
-        className="w-[393px] h-[852px] top-[0px] absolute"
+        className="w-[393px] h-screen top-[0px] absolute"
         src="/images/Home.gif"
         alt="Gif of floating dog" 
         unoptimized

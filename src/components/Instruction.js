@@ -8,10 +8,10 @@ import InstructionPng from '/public/images/Instruction2.png'
 export default function Instruction() {
 
   return (
-    <div className="w-[393px] h-[852px] relative  bg-white mx-auto  overflow-hidden"
+    <div className="w-[393px] h-dvh relative  bg-white mx-auto  overflow-hidden"
       >
     <Image width={450} height={852}
-        className="w-[450px] h-[852px] left-0 top-0 absolute"
+        className="w-[450px] h-screen left-0 top-0 absolute"
         src="/images/CreamBackground.gif"
         alt="moving background" 
         unoptimized
