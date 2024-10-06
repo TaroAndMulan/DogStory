@@ -16,9 +16,7 @@ export default function Old_bed_1() {
     >
   
   <Image
-        width = {1097}
-        height = {933}
-        className="w-[393px]  h-full absolute"
+        className="w-[393px]  h-full absolute object-none object-bottom"
         src={Old_bed_pic}
         alt="background" 
       />
