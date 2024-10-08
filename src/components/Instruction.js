@@ -1,7 +1,5 @@
-"use client";
 import Link from "next/link";
 import Image from "next/image";
-import { useRef, useEffect } from "react";
 import CLickSound from "./ClickSound"
 export default function Instruction() {
 

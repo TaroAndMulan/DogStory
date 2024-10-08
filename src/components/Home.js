@@ -1,34 +1,36 @@
 import Link from "next/link"
 import Image from 'next/image';
-//import HomeGif from '/public/images/Home.gif'
-export default function Home() {
+import CLickSound from "./ClickSound"
+export default function Home2() {
 
   return (
-    <Link href="/Instruction">
-        <div  className="w-[393px] h-dvh relative  bg-white mx-auto ">
+
+    <CLickSound soundFile="/sounds/menu-button-88360.mp3">
+
+       <Link  href="/Instruction">
+<div className="w-dvw h-dvh relative max-w-screen-sm bg-black mx-auto flex flex-col justify-center">
+
+  
+  <Image
+  src={'/images/small_updateHome.gif'}
+  height={852}
+  width={393}
+  alt={`A cute animal!`}
+  className="w-[104.8%] h-[129.3%] top-[-14.6%] absolute"
+  unoptimized = {true} 
+
+/>
 
 
-      <Image
-        width={393} height={852}
-        className="w-[393px] h-screen top-[0px] absolute"
-        src="/images/Home.gif"
-        alt="Gif of floating dog" 
-        unoptimized
-      />
+  <div className="ctext top-[88.9%] text-[#3b3b43] text-4xl font-normal font-['TCS_MyRiver']">แตะจอเพื่อเริ่ม</div>
+  <div className="ctext top-[5%] absolute text-center text-[#3b3b43] text-8xl font-normal font-['TCS_MyRiverBold']">ดาวหมา</div>
+  <div className="ctext top-[18.7%] text-[#3b3b43] text-base font-normal font-['TCS_8Jolie_Thin']">ที่ดาวหมาจะเป็นยังไงบ้างนะ</div>
+</div>
+    </Link> 
 
-      <div  className="left-[82px] top-[580px] absolute text-center text-black text-[64px] 
-      font-normal font-['FC_Marshmallow']"
-      >
-        แตะจอเพื่อเริ่ม
-      </div>
-      <div className="left-[72px] top-[90px] absolute text-center text-black text-8xl font-normal font-['FC_Marshmallow']">
-        (ห)มาหานะ
-      </div>
-      <div className="left-[97px] top-[192px] absolute text-center text-black text-xs font-normal font-['Sukhumvit-Set']">
-        ความเป็นอยู่บนดาวหมา มันเป็นยังไงบ้างนะ
-      </div>
-    </div>
-    </Link>
-
+    </CLickSound>
+    
   );
 }
+
+//  <img className="w-[104.8%] h-[129.3%] top-[-14.6%] absolute" src="/images/updateHome.gif" />
