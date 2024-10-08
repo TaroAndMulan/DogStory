@@ -8,7 +8,7 @@ export default function Bedroom_1() {
 
 
 <Image
-  src={'/images/Dog_Planet.png'}
+  src={'/images/Dog_planet.jfif'}
   height={852}
   width={393}
   alt={`A cute animal!`}
