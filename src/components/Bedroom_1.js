@@ -8,7 +8,7 @@ export default function Bedroom_1() {
 
 
 <Image
-  src={'/images/Dog_planet.jfif'}
+  src={'https://bozdlcvcmvligocahzrc.supabase.co/storage/v1/object/public/images/Dog_Planet.jfif'}
   height={852}
   width={393}
   alt={`A cute animal!`}
@@ -45,17 +45,12 @@ export default function Bedroom_1() {
 }
 
 /*
-   const [viewportHeight,setViewportHeight] = useState()
+<Image
+  src={'/images/Dog_planet.jfif'}
+  height={852}
+  width={393}
+  alt={`A cute animal!`}
+  className="w-[104.8%] h-[129.3%] top-[-14.6%] absolute"
 
-    useEffect(()=>{setViewportHeight( window.innerHeight)  
-        console.log("yea",viewportHeight)},[])
-
-
-        
-    style={{
-        transform: `scale(${viewportHeight/852.0}) translateY(var(--translate-y)) `, // Scaling up based on viewport height
-        '--translate-y':`${(viewportHeight-852.0)/2.0}px`
-     
-      }}
-      >
+/>
       */

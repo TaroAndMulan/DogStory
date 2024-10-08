@@ -8,7 +8,7 @@ export default function Bedroom_2() {
 
 
 <Image
-  src={'/images/Dog_Planet.jfif'}
+  src={'https://bozdlcvcmvligocahzrc.supabase.co/storage/v1/object/public/images/Dog_Planet.jfif'}
   height={852}
   width={393}
   alt={`A cute animal!`}
@@ -89,3 +89,12 @@ export default function Bedroom_2() {
     </div>
   );
 }
+
+/* <Image
+  src={'/images/Dog_Planet.jfif'}
+  height={852}
+  width={393}
+  alt={`A cute animal!`}
+  className="w-[104.8%] h-[129.3%]  top-[-14.6%] absolute "
+
+/> */
