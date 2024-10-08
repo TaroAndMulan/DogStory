@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import MusicPlayer from '../components/MusicComponent';
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -28,6 +30,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >      
+            
+      <MusicPlayer src="/sounds/videoplayback.m4a" iconSize={40} />
         {children}
       </body>
     </html>

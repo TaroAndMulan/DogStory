@@ -10,16 +10,8 @@ export default function Home2() {
        <Link  href="/Instruction">
 <div className="w-dvw h-dvh relative max-w-screen-sm bg-black mx-auto flex flex-col justify-center">
 
-  
-  <Image
-  src={'/images/small_updateHome.gif'}
-  height={852}
-  width={393}
-  alt={`A cute animal!`}
-  className="w-[104.8%] h-[129.3%] top-[-14.6%] absolute"
-  unoptimized = {true} 
+<img className="w-[104.8%] h-[129.3%] top-[-14.6%] absolute" src="/images/small_updateHome.gif" />
 
-/>
 
 
   <div className="ctext top-[88.9%] text-[#3b3b43] text-4xl font-normal font-['TCS_MyRiver']">แตะจอเพื่อเริ่ม</div>
@@ -34,3 +26,12 @@ export default function Home2() {
 }
 
 //  <img className="w-[104.8%] h-[129.3%] top-[-14.6%] absolute" src="/images/updateHome.gif" />
+/*   <Image
+  src={'/images/small_updateHome.gif'}
+  height={852}
+  width={393}
+  alt={`A cute animal!`}
+  className="w-[104.8%] h-[129.3%] top-[-14.6%] absolute"
+  unoptimized = {true} 
+
+/> */
