@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
+import CLickSound from "./ClickSound"
 
 export default function Bedroom_1() {
   return (
@@ -19,7 +20,12 @@ export default function Bedroom_1() {
     className=" ctext top-[4.6%]  text-[#3b3b43] text-2xl font-normal font-['TCS_8Jolie_Thin']">
     วันนี้เป็นวันที่มีเวลาว่าง<br/>ฉันจัดห้องไปเรื่อย ๆ <br/>จนกระทั่ง
   </div>
-  <div className="w-[94.1%] h-[16.8%] left-[2.9%] top-[80.9%] absolute">
+
+
+
+  <CLickSound soundFile="/sounds/menu-button-88360.mp3">
+
+  <Link href="/Bedroom_2" className="w-[94.1%] h-[16.8%] left-[2.9%] top-[80.9%] absolute">
 
     <Image
   src={'/images/Button_Purple.png'}
@@ -34,7 +40,7 @@ export default function Bedroom_1() {
       className="ctext top-[32.4%]  text-[#f9eeee] text-2xl font-normal font-['TCS_8Jolie_Thin']">
       ฉันพบอะไรบางอย่าง
     </div>
-  </div>
+  </Link> </CLickSound>
     </div>
   );
 }

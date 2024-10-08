@@ -2,9 +2,9 @@
 import dynamic from 'next/dynamic';
 
 import Instruction from '@/components/Instruction'
-import Old_bed_1 from '@/components/Old_bed_1'
+import Home2 from '@/components/Home2'
 import Bedroom_1 from '@/components/Bedroom_1'
-import Old_bed_2 from '@/components/Old_bed_2'
+import Bedroom_2 from '@/components/Bedroom_2'
 import Old_bed_3 from '@/components/Old_bed_3'
 
 export default function Page({ params }: { params: { slug: string } }) {
@@ -12,12 +12,14 @@ export default function Page({ params }: { params: { slug: string } }) {
 
     const renderContent = () => {
         switch (params.slug) {
+          case "home":
+            return <Home2/>
           case "Instruction":
             return <Instruction/>;
           case "Bedroom_1":
             return <Bedroom_1/>;
-          case "Old_bed_2":
-            return <Old_bed_2/>;
+          case "Bedroom_2":
+            return <Bedroom_2/>;
             case "Old_bed_3":
                 return <Old_bed_3/>;
           default:

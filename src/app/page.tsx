@@ -6,7 +6,7 @@ export default function Page() {
   return (
 
     (<div className="h-dvh relative  overflow-hidden">
-    <Home2 />  </div>)
+    welcome!  </div>)
 
   );
 }
