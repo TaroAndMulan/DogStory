@@ -21,6 +21,7 @@ export default function Home2() {
   width={393}
   alt={`A cute animal!`}
   className="w-[104.8%] h-[129.3%] top-[-14.6%] absolute"
+  unoptimized = {true} 
 
 />
 
