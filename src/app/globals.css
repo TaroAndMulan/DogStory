@@ -21,6 +21,9 @@ body {
 
 }
 
+.ctext {
+  @apply absolute left-1/2 -translate-x-1/2 text-center whitespace-nowrap;
+}
 
 @layer utilities {
   .text-balance {
@@ -42,6 +45,44 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
+
+@font-face {
+  font-family: 'TCS 8Jolie Bold'; /* Replace with the actual font name */
+  src: url('/fonts/TCS-8Jolie-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TCS 8Jolie Thin'; /* Replace with the actual font name */
+  src: url('/fonts/TCS-8Jolie-Thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'TCS MyRiver'; /* Replace with the actual font name */
+  src: url('/fonts/TCS-MyRiver.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TCS MyRiverBold'; /* Replace with the actual font name */
+  src: url('/fonts/TCS-MyRiverBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TCS MyRiverThin'; /* Replace with the actual font name */
+  src: url('/fonts/TCS-MyRiverThin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 
 

@@ -2,30 +2,26 @@
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Instruction() {
+export default function Bedroom_1() {
   return (
 <div className="w-dvw h-dvh relative max-w-screen-sm bg-black mx-auto flex flex-col justify-center">
 
+
 <Image
-  src={'/images/Instruction.png'}
+  src={'/images/Dog_Planet.png'}
   height={852}
   width={393}
   alt={`A cute animal!`}
   className="w-[104.8%] h-[129.3%] top-[-14.6%] absolute"
 
 />
+  <div 
+    className=" ctext top-[4.6%]  text-[#3b3b43] text-2xl font-normal font-['TCS_8Jolie_Thin']">
+    วันนี้เป็นวันที่มีเวลาว่าง<br/>ฉันจัดห้องไปเรื่อย ๆ <br/>จนกระทั่ง
+  </div>
+  <div className="w-[94.1%] h-[16.8%] left-[2.9%] top-[80.9%] absolute">
 
-      <div className="top-[25.5%] ctext text-[#3b3b43] text-8xl font-normal font-['TCS_MyRiverBold']">
-        วิธีเล่น
-      </div>
-      <div className="ctext top-[41.4%] absolute text-center text-[#3b3b43] text-2xl font-normal font-['TCS_8Jolie_Thin']">
-        แตะที่ตัวหนังสือที่อยู่ในกรอบ     <br></br>    เพื่อเป็นการดำเนินเรื่องไปจนจบ
-
-      </div>
-   \
-      <Link href="/Bedroom_1" className="w-[94.1%] h-[16.8%] left-[2.9%] top-[55.7%] absolute">
-
-<Image
+    <Image
   src={'/images/Button_Purple.png'}
   height={111}
   width={353}
@@ -34,10 +30,11 @@ export default function Instruction() {
 
 />
 
-        <div  className="ctext top-[32.4%]  text-[#f9eeee] text-2xl font-normal font-['TCS_8Jolie_Thin']">
-          แตะตรงนี้
-        </div>
-      </Link>
+    <div 
+      className="ctext top-[32.4%]  text-[#f9eeee] text-2xl font-normal font-['TCS_8Jolie_Thin']">
+      ฉันพบอะไรบางอย่าง
+    </div>
+  </div>
     </div>
   );
 }
