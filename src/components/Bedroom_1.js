@@ -4,7 +4,7 @@ import CLickSound from "./ClickSound"
 
 export default function Bedroom_1() {
   return (
-<div className="w-dvw h-dvh relative max-w-screen-sm bg-black mx-auto flex flex-col justify-center">
+<div className="w-dvw h-dvh relative desktop bg-black mx-auto flex flex-col justify-center">
 
 
 <Image
@@ -12,11 +12,12 @@ export default function Bedroom_1() {
   height={852}
   width={393}
   alt={`A cute animal!`}
-  className="w-[104.8%] h-[129.3%] top-[-14.6%] absolute"
+  className="w-[110.8%] h-[129.3%] left-[0%] top-[-14.6%] absolute"
 
 />
   <div 
-    className=" ctext top-[4.6%]  text-[#3b3b43] text-2xl font-normal font-['TCS_8Jolie_Thin']">
+    className=" left-[8%] top-[8%] absolute  leading-relaxed
+ text-[#3b3b43] text-2xl font-normal  font-['TCS_8Jolie_Thin']">
     วันนี้เป็นวันที่มีเวลาว่าง<br/>ฉันจัดห้องไปเรื่อย ๆ <br/>จนกระทั่ง
   </div>
 

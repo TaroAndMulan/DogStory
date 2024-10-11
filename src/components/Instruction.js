@@ -4,7 +4,7 @@ import CLickSound from "./ClickSound"
 export default function Instruction() {
 
   return (
-    <div className="w-dvw h-dvh relative max-w-screen-sm bg-black mx-auto flex flex-col justify-center">
+    <div className="w-dvw h-dvh relative desktop bg-black mx-auto flex flex-col justify-center">
       <Image
         src={"/images/Instruction.png"}
         height={852}
@@ -13,10 +13,10 @@ export default function Instruction() {
         className="w-[104.8%] h-[129.3%] top-[-14.6%] absolute"
       />
 
-      <div className="top-[25.5%] ctext text-[#3b3b43] text-8xl font-normal font-['TCS_MyRiverBold']">
+      <div className="top-[28.5%] absolute left-[35%] text-[#3b3b43] text-7xl font-normal font-['TCS_MyRiverBold']">
         วิธีเล่น
       </div>
-      <div className="ctext top-[41.4%] absolute text-center text-[#3b3b43] text-2xl font-normal font-['TCS_8Jolie_Thin']">
+      <div className="ctext top-[41.4%] leading-relaxed absolute text-center text-[#3b3b43] text-2xl font-normal font-['TCS_8Jolie_Thin']">
         แตะที่ตัวหนังสือที่อยู่ในกรอบ <br></br> เพื่อเป็นการดำเนินเรื่องไปจนจบ
       </div>
 

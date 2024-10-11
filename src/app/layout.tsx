@@ -31,7 +31,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >      
             
-      <MusicPlayer src="/sounds/videoplayback.m4a" iconSize={40} />
+      {/*<MusicPlayer src="/sounds/videoplayback.m4a" iconSize={40} />*/}
         {children}
       </body>
     </html>

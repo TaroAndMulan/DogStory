@@ -8,7 +8,7 @@ export default function Home2() {
     <CLickSound soundFile="/sounds/menu-button-88360.mp3">
 
        <Link  href="/Instruction">
-<div className="w-dvw h-dvh relative max-w-screen-sm bg-black mx-auto flex flex-col justify-center">
+<div className="w-dvw h-dvh relative desktop	 bg-black mx-auto flex flex-col justify-center">
 
 
 <Image
@@ -21,9 +21,9 @@ export default function Home2() {
 />
 
 
-  <div className="ctext top-[88.9%] text-[#3b3b43] text-4xl font-normal font-['TCS_MyRiver']">แตะจอเพื่อเริ่ม</div>
-  <div className="ctext top-[5%] absolute text-center text-[#3b3b43] text-8xl font-normal font-['TCS_MyRiverBold']">ดาวหมา</div>
-  <div className="ctext top-[18.7%] text-[#3b3b43] text-base font-normal font-['TCS_8Jolie_Thin']">ที่ดาวหมาจะเป็นยังไงบ้างนะ</div>
+  <div className="absolute left-[31%]  text-center whitespace-nowrapleft-[20%] top-[88.5%] text-[#3b3b43] text-4xl font-normal font-['TCS_MyRiver']">แตะจอเพื่อเริ่ม</div>
+  <div className="absolute left-[22%] tracking-[0em] top-[5%]  text-center text-[#3b3b43] text-8xl font-normal font-['TCS_MyRiverBold']">ดาวหมา</div>
+  <div className="absolute -tracking-[0.02em]	left-[23.8%] top-[18.7%] text-[#3b3b43]  font-[550] text-xl font-['TCS_8Jolie_Thin']">ที่ดาวหมาจะเป็นยังไงบ้างนะ</div>
 </div>
     </Link> 
 

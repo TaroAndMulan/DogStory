@@ -4,7 +4,7 @@ import CLickSound from "./ClickSound"
 
 export default function Bedroom_2() {
   return (
-<div className="w-dvw h-dvh relative max-w-screen-sm bg-black mx-auto flex flex-col justify-center">
+<div className="w-dvw h-dvh relative desktop bg-black mx-auto flex flex-col justify-center">
 
 
 <Image
