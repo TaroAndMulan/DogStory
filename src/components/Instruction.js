@@ -7,10 +7,9 @@ export default function Instruction() {
     <div className="w-dvw h-dvh relative desktop bg-black mx-auto flex flex-col justify-center">
       <Image
         src={"/images/Instruction.png"}
-        height={852}
-        width={393}
+      
         alt={`A cute animal!`}
-        className="w-[104.8%] h-[129.3%] top-[-14.6%] absolute"
+        fill
       />
 
       <div className="top-[28.5%] absolute left-[35%] text-[#3b3b43] text-7xl font-normal font-['TCS_MyRiverBold']">
